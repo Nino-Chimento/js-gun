@@ -3,17 +3,26 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 width: 100%;
-height: 100vh;
+height: calc(100vw * 9 / 16);
+overflow: hidden;
 background-image: url(../img/Desert-Background.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 position: relative;
 }
-.sipariotop-movie{
+.sipariotop-movie-top{
   position: absolute;
   top:0;
+  z-index: 1;
   animation-name: sipariotop;
+  animation-duration: 5s;
+  animation-fill-mode: linear;
+}
+.siaprio-movie-sx{
+  position: absolute;
+  left:0;
+  animation-name: sipariosx;
   animation-duration: 5s;
   animation-fill-mode: linear;
 }
@@ -32,5 +41,22 @@ position: relative;
   }
   100%{
     top:-100%;
+  }
+}
+@keyframes sipariosx {
+  0% {
+    left:0;
+  }
+  25% {
+    left: -25%;
+  }
+  50%{
+    left: -50%;
+  }
+  75%{
+    left: -75%;
+  }
+  100%{
+    left: -100%;
   }
 }
