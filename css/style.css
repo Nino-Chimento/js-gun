@@ -10,6 +10,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 position: relative;
+z-index: -1;
 }
 .sipariotop-movie-top{
   position: absolute;
@@ -101,4 +102,74 @@ h1 {
   cursor: pointer;
   left: 40%;
   top:10%;
+}
+/* bersagli */
+.bersaglio1 {
+  background-image: url(../img/air-balloon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:15%;
+  width: 12%;
+  height: 33%;
+  cursor: pointer;
+}
+.bersaglio2{
+  background-image: url(../img/dragon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:45%;
+  width: 12%;
+  height: 23%;
+  cursor: pointer;
+}
+.bersaglio3{
+  background-image: url(../img/eagle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:75%;
+  width: 16%;
+  height: 20%;
+  cursor: pointer;
+}
+.bersaglio4{
+  background-image: url(../img/gunman1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:15%;
+  top:45%;
+  width: 12%;
+  height: 33%;
+  cursor: pointer;
+}
+.bersaglio5{
+  background-image: url(../img/gunman3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:45%;
+  top:50%;
+  width: 12%;
+  height: 33%;
+  cursor: pointer;
+}
+.bersaglio6{
+  background-image: url(../img/helicopter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:75%;
+  top:50%;
+  width: 12%;
+  height: 33%;
+  cursor: pointer;
 }
