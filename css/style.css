@@ -26,6 +26,13 @@ position: relative;
   animation-duration: 5s;
   animation-fill-mode: linear;
 }
+.sipario-movie-dx{
+  position: absolute;
+  right:0;
+  animation-name: sipariodx;
+  animation-duration: 5s;
+  animation-fill-mode: linear;
+}
 @keyframes sipariotop {
   0%{
     top:0;
@@ -59,4 +66,24 @@ position: relative;
   100%{
     left: -100%;
   }
+}
+@keyframes sipariodx {
+  0%{
+    right:0;
+  }
+  25%{
+    right:-25%;
+  }
+  50%{
+    right:-50%;
+  }
+  75%{
+    right:-75%;
+  }
+  100%{
+    right:-100%;
+  }
+}
+.hidden{
+  display: none;
 }
