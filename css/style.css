@@ -8,4 +8,29 @@ background-image: url(../img/Desert-Background.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+position: relative;
+}
+.sipariotop-movie{
+  position: absolute;
+  top:0;
+  animation-name: sipariotop;
+  animation-duration: 5s;
+  animation-fill-mode: linear;
+}
+@keyframes sipariotop {
+  0%{
+    top:0;
+  }
+  25%{
+    top:-25%;
+  }
+  50%{
+    top:-50%;
+  }
+  75%{
+    top:-75%;
+  }
+  100%{
+    top:-100%;
+  }
 }
