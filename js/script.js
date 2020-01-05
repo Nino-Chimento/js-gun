@@ -24,6 +24,11 @@ function () {
       console.log(numero);
     }
   },4500);
+  setTimeout(function () {
+    document.getElementById('bersaglio-'+numero).classList.remove("rotate");
+    document.getElementById('bersaglio-'+numero).classList.add("hidden");
+    console.log(numero);
+  }, 5000);
 }
 );
 // esplosione quando viene colpito il bersaglio
